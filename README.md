@@ -42,36 +42,6 @@ A low-cost, real-time, AI-powered health monitoring system for arrhythmia detect
 
 ## 📁 Project Structure
 
----Realtime-ECG-Monitoring/
-├── hardware/
-│   ├── ecg_esp32_firebase.ino          # ECG acquisition via ESP32
-│   ├── max30102_nodemcu.ino            # BPM and SpO2 reading via NodeMCU
-│   └── circuit_diagrams.png            # Schematics for hardware
-│
-├── model/
-│   ├── ecg_transformer_model.keras     # Trained deep learning model
-│   ├── training_notebook.ipynb         # JupyterLab training code
-│   └── wfdb_preprocessing.py           # WFDB data loading & preprocessing
-│
-├── web_dashboard/
-│   ├── app.py                          # Streamlit app (ECG + vitals)
-│   ├── requirements.txt                # Python dependencies
-│   └── screenshots/                    # Screenshots of the dashboard
-│
-├── voice_assistant/
-│   └── voice_sos_assistant.py          # VOSK-based voice alert system
-│
-├── telegram_bot/
-│   └── bot_integration.py              # Telegram bot code (alerts + status)
-│
-├── firebase_config/
-│   └── firebase_credentials.json       # Firebase DB connection file
-│
-├── LICENSE                             # MIT License
-├── README.md                           # This file
-└── .gitignore                          # Files to ignore when pushing
-
-
 ## 🧪 Arrhythmia Classes Detected
 
 - ✅ Normal
